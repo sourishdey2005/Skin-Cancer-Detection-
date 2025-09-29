@@ -208,7 +208,7 @@ This plot illustrates the model's learning progression by showing how the loss v
 
 This plot tracks the accuracy metric over epochs, allowing visual inspection of how well the model generalizes to unseen data during training (validation accuracy). The goal is to maximize validation accuracy without significant overfitting.
 
-![Training Accuracy History](visualizations/CPU_Light_Efficient_CNN_training_history.png)
+
 
 *(This image will be generated in your `visualizations/` directory after you run the script and will depict your actual training and validation accuracy history.)*
 
@@ -216,21 +216,7 @@ This plot tracks the accuracy metric over epochs, allowing visual inspection of 
 
 A detailed classification report provides per-class performance metrics (Precision, Recall, F1-Score) along with overall averages. This is crucial for understanding the model's strengths and weaknesses across different skin lesion types, especially given the class imbalance.
 
-```
-              precision    recall  f1-score   support
 
-       akiec       0.XX      0.XX      0.XX        YY
-         bcc       0.XX      0.XX      0.XX        YY
-         bkl       0.XX      0.XX      0.XX        YY
-          df       0.XX      0.XX      0.XX        YY
-         mel       0.XX      0.XX      0.XX        YY
-          nv       0.XX      0.XX      0.XX        YY
-        vasc       0.XX      0.XX      0.XX        YY
-
-    accuracy                           0.6693      ZZZZ
-   macro avg       0.XX      0.XX      0.XX      ZZZZ
-weighted avg       0.XX      0.XX      0.5367      ZZZZ
-```
 
 *(Note: The provided `main.py` currently only generates history plots. To produce the Classification Report and Confusion Matrix visuals as image files, you would need to re-integrate or extend the `plot_results_single` function from previous iterations and ensure it's called after final test evaluation.)*
 
@@ -289,8 +275,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions, feedback, or collaborations, please feel free to reach out:
 
-* **Your Name:** [SOurish Dey ]
-* **GitHub:** [@YOUR_USERNAME](https://github.com/sourishdey2005)
+* **Your Name:** [Sourish Dey ]
+* **GitHub:** [sourishdey2005](https://github.com/sourishdey2005)
 * **LinkedIn (Optional):** [https://www.linkedin.com/in/sourish-dey-20b170206/]
 
 ---
