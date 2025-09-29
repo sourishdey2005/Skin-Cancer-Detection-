@@ -275,7 +275,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions, feedback, or collaborations, please feel free to reach out:
 
-* **Your Name:** [Sourish Dey ]
+* **Your Name:** Sourish Dey 
 * **GitHub:** [sourishdey2005](https://github.com/sourishdey2005)
 * **LinkedIn (Optional):** [https://www.linkedin.com/in/sourish-dey-20b170206/]
 
