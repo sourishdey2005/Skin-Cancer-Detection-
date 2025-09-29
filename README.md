@@ -2,15 +2,8 @@
 Skin Cancer Detection 
 # 🔬 Advanced Skin Lesion Classification with CPU-Optimized CNN (`CPU_Light_Efficient_CNN`)
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
-![TensorFlow](https://img.shields.com/badge/TensorFlow-2.13-orange?style=for-the-badge&logo=tensorflow)
-![Scikit-learn](https://img.shields.com/badge/Scikit--learn-v1.0%2B-lightgreen?style=for-the-badge&logo=scikit-learn)
-![OpenCV](https://img.shields.com/badge/OpenCV-v4.x-red?style=for-the-badge&logo=opencv)
-![License](https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge)
-[![Code Factor](https://img.shields.io/codefactor/grade/github/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge)](https://www.codefactor.io/repository/github/YOUR_USERNAME/YOUR_REPO_NAME)
-[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge&color=gold)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/stargazers)
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cafc038d-c7da-4d0b-9458-019d4a62f52e" />
 
----
 
 ## 🌟 Project Overview
 
