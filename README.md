@@ -48,24 +48,11 @@ The `CPU_Light_Efficient_CNN` is a custom-designed, lightweight, yet capable seq
     * Additional `BatchNormalization` and `Dropout` (0.5) for robust regularization before the final output.
     * **Output Layer:** A `Dense` layer with `CONFIG['num_classes']` (7) units and `softmax` activation, producing the final probability distribution over the seven skin lesion classes.
 
-### Architectural Diagram (Conceptual Flow):
+### Architecture
 
-```mermaid
-graph TD
-    A[Input: 128x128x3 Image] --> B{Initial Conv2D + BN}
-    B --> C1[Block 1: DepthwiseConv2D + 1x1 Conv + BN + MaxPooling + Dropout (32 -> 64 filters)]
-    C1 --> D1[Output: 64x64x64 Features]
-    D1 --> C2[Block 2: DepthwiseConv2D + 1x1 Conv + BN + MaxPooling + Dropout (64 -> 128 filters)]
-    C2 --> D2[Output: 32x32x128 Features]
-    D2 --> C3[Block 3: DepthwiseConv2D + 1x1 Conv + BN + MaxPooling + Dropout (128 -> 256 filters)]
-    C3 --> D3[Output: 16x16x256 Features]
-    D3 --> E[GlobalAveragePooling2D]
-    E --> F[Dense Layer (256 units) + BN + Dropout]
-    F --> G[Output Layer: Dense (7 units) + Softmax]
-    G --> H(Prediction: 7-Class Probabilities)
-```
 
----
+<img width="3999" height="1178" alt="image" src="https://github.com/user-attachments/assets/c1070e4a-c648-4583-a647-d4878d6cf060" />
+
 
 ## 📊 Dataset
 
